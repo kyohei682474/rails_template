@@ -164,22 +164,8 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.4)
-    nokogiri (1.18.1-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.1-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.1-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.1-arm-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.1-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.1-x86_64-linux-musl)
+    nio4r (2.5.9)
+    nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.26.3)
     parser (3.3.6.0)
@@ -214,9 +200,9 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.6.2)
+    rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
-      nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
+      nokogiri (~> 1.14)
     rails_best_practices (1.23.2)
       activesupport
       code_analyzer (~> 0.5.5)
@@ -323,14 +309,7 @@ GEM
     zeitwerk (2.7.1)
 
 PLATFORMS
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux-gnu
-  arm-linux-musl
-  arm64-darwin
-  x86_64-darwin
-  x86_64-linux-gnu
-  x86_64-linux-musl
+ 
 
 DEPENDENCIES
   aws-sdk-s3
