@@ -12,5 +12,5 @@ product = Product.create!(
   price: 500
 )
 
-product.image.attach(io: File.open(Rails.root.join('app/assets/images/dummy.jpg')),
-                     filename: 'dummy.jpg')
+product.image.attach(io: Rails.root.join('app/assets/images/dummy.jpg').open,
+                     filename: 'dummy.jpg', content_type: 'image/jpeg')
